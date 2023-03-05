@@ -1,1 +1,1 @@
-# Etch-a-Sketch
+A very simple etch a sketch implementation.

@@ -1,11 +1,32 @@
+
+
+.containingContainer{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+
 #container{
+
+    
     display: grid;
+    height: 50%;
+    width: 50%;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    gap: 10px;
+
+ 
 }
 
 div .grid-item{
-    background-color: aqua;
-    border-color: black;
+
+height: 1fr;
+width: 1fr;
+background-color: #ccc; /* set a background color for the grid item */ /* set the height equal to the width */
+        
 }
